@@ -1,0 +1,19 @@
+############ Server configurations ############
+
+NODE_ENV = 'local'
+IP = 'localhost'
+PORT = 8000
+
+########## JWT configurations   #########
+
+JWT_SECRET_USER = '12345678'
+JWT_SECRET_ADMIN = '12345678'
+JWT_SECRET_AGENT = '12345678'
+JWT_SECRET_CBSR_SIGNATURE = '12345678'
+
+######### Mongo DB credentials #######
+
+MONGO_USER_NAME = ''
+MONGO_USER_PASSWORD = ''
+MONGO_HOST = 'localhost:27017'
+MONGO_DB_NAME = 'local_dev'
